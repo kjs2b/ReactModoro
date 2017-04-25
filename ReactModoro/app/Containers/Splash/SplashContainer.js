@@ -5,11 +5,7 @@ import { Splash } from '~/components';
 export default class SplashContainer extends Component {
   render() {
     return (
-      <View>
-        <Text>
-          SplashContainer
-        </Text>
-      </View>
+      <Splash />
     );
   }
 }

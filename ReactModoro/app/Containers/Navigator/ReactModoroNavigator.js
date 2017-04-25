@@ -4,7 +4,7 @@ import { SpashContainer } from '~/containers';
 
 export default class ReactModoroNavigator extends Component {
   renderScene = (route, navigator) => {
-    <SplashContainer navigator={navigator} />
+    return <SplashContainer navigator={navigator} />
   }
   configureScene = (route) => {
 
