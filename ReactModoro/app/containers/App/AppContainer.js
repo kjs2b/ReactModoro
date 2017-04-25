@@ -1,6 +1,6 @@
 import React, { PropTypes, Component } from 'react';
 import { View } from 'react-native';
-import { ReactModoroNavigator } from '~/container';
+import { ReactModoroNavigator } from '~/containers';
 
 export default class AppContainer extends Component {
 

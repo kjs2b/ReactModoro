@@ -1,5 +1,5 @@
 import React, { PropTypes } from 'react';
-import { View, StyleSheet Text } from 'react-native';
+import { View, StyleSheet, Text } from 'react-native';
 
 Splash.propTypes = {
   
@@ -17,4 +17,4 @@ export default function Splash(props) {
 
 const styles = StyleSheet.create({
 
-})
+});

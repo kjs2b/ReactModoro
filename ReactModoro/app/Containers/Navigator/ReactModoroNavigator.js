@@ -1,6 +1,6 @@
 import React, { PropTypes, Component } from 'react';
 import { Navigator } from 'react-native';
-import { SpashContainer } from '~/containers';
+import { SplashContainer } from '~/containers';
 
 export default class ReactModoroNavigator extends Component {
   renderScene = (route, navigator) => {
